@@ -1,16 +1,19 @@
 {
   "name": "@pipeworx/mcp-npm",
   "version": "0.1.0",
+  "description": "npm MCP — wraps the npm Registry API (free, no auth)",
   "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "npm"],
   "license": "MIT",
-  "description": "MCP server for npm — search packages, get details, and download stats",
-  "keywords": [
-    "mcp",
-    "mcp-server",
-    "model-context-protocol",
-    "pipeworx",
-    "npm"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-npm"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "devDependencies": {
     "typescript": "^5.7.0"
   }

@@ -1,12 +1,3 @@
-/**
- * npm MCP — wraps the npm Registry API (free, no auth)
- *
- * Tools:
- * - search_packages: search the npm registry by keyword
- * - get_package: fetch metadata for a specific package
- * - get_downloads: fetch download counts for a package
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -21,6 +12,16 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * npm MCP — wraps the npm Registry API (free, no auth)
+ *
+ * Tools:
+ * - search_packages: search the npm registry by keyword
+ * - get_package: fetch metadata for a specific package
+ * - get_downloads: fetch download counts for a package
+ */
+
 
 const REGISTRY = 'https://registry.npmjs.org';
 const DOWNLOADS = 'https://api.npmjs.org/downloads/point';
