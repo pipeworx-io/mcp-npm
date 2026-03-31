@@ -1,0 +1,17 @@
+{
+  "name": "@pipeworx/mcp-npm",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "MCP server for npm — search packages, get details, and download stats",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "pipeworx",
+    "npm"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
