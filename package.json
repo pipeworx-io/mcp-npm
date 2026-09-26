@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-npm",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "npm MCP — wraps the npm Registry API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-985a9c7491c7f2b9b9dbf7c1f0b7cd0aeaba8071b62b319662a823528e698f34",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-8443ad02ba1fa469887535d16584793e55416bc24b5d732b513afe2da8055191",
+    "sourceCommit": "97740c6ee04c8acbfe7dddcacfde9e88ff2b9ca0"
   }
 }
