@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-npm",
-  "version": "0.2.1",
-  "description": "npm MCP — wraps the npm Registry API (free, no auth)",
+  "version": "0.2.2",
+  "description": "Unofficial npm MCP — wraps the npm Registry API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "npm",
     "gatewaySlug": "npm",
-    "sourceHash": "v1-e2ed39f58f5b057750c03143333ba4e9ae4eaa96504152f783076e76dde17ab9",
-    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
+    "sourceHash": "v1-4268eff5f3db4c89e01f950ef79d482085fea57561f0885274aa66cad0fe5bad",
+    "sourceCommit": "6e7ae693219a515a7ee6dd88d02390ab290fbad3"
   }
 }

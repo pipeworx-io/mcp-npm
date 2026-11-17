@@ -1,6 +1,6 @@
 [
   {
-    "name": "search_packages",
+    "name": "npm_search_packages",
     "description": "Search npm for packages by keyword. Returns package names, descriptions, latest versions, publish dates, and publishers. Use when discovering libraries for a task.",
     "inputSchema": {
       "type": "object",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "name": "get_package",
+    "name": "npm_get_package",
     "description": "Get full details for a specific package: version, description, dependencies, homepage, repository, and license. Use after search_packages to evaluate a candidate package.",
     "inputSchema": {
       "type": "object",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "name": "list_versions",
+    "name": "npm_list_versions",
     "description": "List published versions of an npm package with publish dates, dist-tags (latest/next/beta), and deprecation notices — answers \"what versions of <pkg> exist\", \"when was <pkg> last published\", \"is the latest version deprecated\". Returns versions newest-first, plus the package created/last-modified timestamps.",
     "inputSchema": {
       "type": "object",
